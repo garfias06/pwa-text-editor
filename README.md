@@ -21,16 +21,18 @@ Webpack is is a bundler for modules, its main purpose is to bundle JavaScript fi
 
 This PWA requires many dependencies/packages to be install in order to work properly: 
 
-- On the client side:
+On the client side:
 - IndexedDB:
 - --idb version 6.1.2
-- Babel:
+
+Babel:
 - --babel/core version 7.15.0,
 - --babel/plugin-transform-runtime version 7.15.0,
 - --babel/preset-env version 7.15.0,
 - --babel/runtime version 7.15.3,
 - --babel-loader version 8.2.2
-- Webpack:
+
+Webpack:
 - --webpack version 5.51.1,
 - --webpack-cli version 4.8.0,
 - --webpack-dev-server version 4.0.0,
@@ -41,7 +43,7 @@ This PWA requires many dependencies/packages to be install in order to work prop
 - --http-server version 0.11.1,
 - --style-loader version 3.2.1
 
-- On the server side:
+On the server side:
 - Express JS:
 - --express version 4.17.1
 
@@ -70,10 +72,10 @@ IndexedDB works properly storing user's input, this is the way the PWA is going 
 ![browser database](assets/browser%20database.png)
 
 ## Credits
-https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
-https://babeljs.io/docs/
-https://www.npmjs.com/package/webpack
-Tutor: Jose Lopez.
+- https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+- https://babeljs.io/docs/
+- https://www.npmjs.com/package/webpack
+- Tutor: Jose Lopez.
 
 ## License
 MIT License
